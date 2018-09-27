@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>VuPractice</title>
+  <link rel="stylesheet" type="text/css" href="Styles/Base.css">
 </head>
 <body>
-  <h1>Proof of life</h1>
+  <div class="nav-bar"></div>
   <div id="app">
-    <h1>{{product}}</h1>
-    <h2>{{descirption}}</h2>
+    <product :premium="premium"></product>
   </div>
-  
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="Scripts/main.js"></script>
 </body>
